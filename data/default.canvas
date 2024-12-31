@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"973e485dbe0d9a1a","type":"group","x":320,"y":-60,"width":760,"height":940,"color":"3","label":"Test 3"},
+		{"id":"e1df7c7d47ae166a","type":"group","x":-840,"y":-60,"width":660,"height":600,"color":"1","label":"Test 1"},
+		{"id":"23049a1717e309be","type":"group","x":-140,"y":-60,"width":400,"height":400,"color":"2","label":"Test 2"},
+		{"id":"c7877700adb61f6e","type":"text","text":"Hey","x":-60,"y":-380,"width":250,"height":60},
+		{"id":"6c9444a29ad3f5ec","type":"text","text":"Hello World\n","x":-560,"y":-32,"width":250,"height":50},
+		{"id":"d2b14bb362e3c6d6","type":"text","text":"Hello World\n","x":-100,"y":-32,"width":250,"height":50},
+		{"id":"2ff68b97f5daf4a9","type":"text","text":"Hello World\n","x":360,"y":-32,"width":250,"height":50},
+		{"id":"7419954820f9627c","type":"file","file":"switching-from-windows-to-macos-as-a-developer.md","x":-710,"y":80,"width":400,"height":400},
+		{"id":"fdfd32dca83ae98a","type":"link","url":"https://syp.today","x":640,"y":-7,"width":400,"height":818},
+		{"id":"820edb812d47763c","type":"file","file":"يا حرام.mp3","x":-635,"y":-371,"width":400,"height":42},
+		{"id":"5364b86dbc90eaab","x":360,"y":-617,"width":400,"height":267,"type":"file","file":"simplebackups-synology-storage.png"}
+	],
+	"edges":[
+		{"id":"0872b9edd518e267","fromNode":"c7877700adb61f6e","fromSide":"bottom","toNode":"e1df7c7d47ae166a","toSide":"top"},
+		{"id":"378128e5f6139416","fromNode":"c7877700adb61f6e","fromSide":"bottom","toNode":"23049a1717e309be","toSide":"top","label":"No"},
+		{"id":"cab104697227b285","fromNode":"c7877700adb61f6e","fromSide":"bottom","toNode":"973e485dbe0d9a1a","toSide":"top","label":"Hello World."},
+		{"id":"a37daa6c8e5fd2bf","fromNode":"820edb812d47763c","fromSide":"right","toNode":"c7877700adb61f6e","toSide":"left"},
+		{"id":"cccd4fa0d33066e4","fromNode":"c7877700adb61f6e","fromSide":"right","toNode":"5364b86dbc90eaab","toSide":"left"}
+	]
+}
